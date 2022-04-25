@@ -1,7 +1,7 @@
 ---
-title: "ASHINE - METAL ERECTION XIII"
+title: "Ashine - Metal Erection XIII"
 date: 2022-04-24
-tags: ["video"]
+tags: ["video", "music video"]
 
 cover:
   image: "/portfolio/ashinemetalerection.jpg" # image path/url

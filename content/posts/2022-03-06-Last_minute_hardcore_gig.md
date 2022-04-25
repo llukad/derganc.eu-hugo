@@ -1,7 +1,7 @@
 ---
 title: "Last minute hardcore gig"
 date: 2022-03-06
-tags: ["video"]
+tags: ["video", "music video"]
 
 cover:
   image: "/portfolio/hardcore20220303.jpg" # image path/url

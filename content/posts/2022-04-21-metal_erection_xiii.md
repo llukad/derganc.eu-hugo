@@ -1,7 +1,7 @@
 ---
-title: "METAL ERECTION XIII"
+title: "Metal Erection XIII"
 date: 2022-04-21
-tags: ["video"]
+tags: ["video", "music video"]
 
 cover:
   image: "/portfolio/metalerectionxiii.jpg" # image path/url

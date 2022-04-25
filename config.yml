@@ -1,6 +1,6 @@
 baseURL: "https://derganc.eu/"
 title: derganc.eu
-paginate: 10
+paginate: 6
 theme: PaperMod
 # copyright: "**[example.site](https://example.site)**"
 
