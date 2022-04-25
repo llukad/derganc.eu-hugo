@@ -25,14 +25,14 @@ params:
   description: "Luka Derganc"
   keywords: [Blog, Portfolio]
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["/logo.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: light # dark, light
   disableThemeToggle: true
 
   ShowReadingTime: false
   ShowShareButtons: true
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
   disableSpecial1stPost: false
@@ -60,8 +60,8 @@ params:
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
+      - name: Timeline
+        url: timeline
 
   # home-info mode
   homeInfoParams:
@@ -75,6 +75,8 @@ params:
       url: "https://www.instagram.com/llderganc/"
     - name: youtube
       url: "https://www.youtube.com/channel/UCddS2cslaLLl5aPoiRjW2dg"
+    - name: rss
+      url: "/index.xml"
 
   cover:
     hidden: false # hide everywhere but not in structured data
@@ -94,14 +96,23 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 10
+
     - identifier: timeline
       name: timeline
       url: /timeline/
-      weight: 10
+      weight: 20
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 30
     - identifier: search
       name: search
       url: /search/
-      weight: 30
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
