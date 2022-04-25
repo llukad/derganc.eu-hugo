@@ -4,7 +4,7 @@ date: 2014-07-14
 tags: ["video", "short film"]
 
 cover:
-  image: "/portfolio/riba.jpg" # image path/url
+  image: "covers/riba.jpg" # image path/url
 ---
 
 Watch the video [here](https://www.youtube.com/watch?v=8NGDruejhDY).

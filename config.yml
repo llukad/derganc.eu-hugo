@@ -83,6 +83,7 @@ params:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
     responsiveImages: true
+    relative: true
 
   # for search
   # https://fusejs.io/api/options.html
