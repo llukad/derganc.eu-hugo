@@ -23,7 +23,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: derganc.eu
   description: "Luka Derganc"
-  keywords: [Blog, Portfolio]
+  keywords: [Blog, Portfolio, Luka Derganc]
   # author: ["Me", "You"] # multiple authors
   images: ["/logo.png"]
   DateFormat: "January 2, 2006"
