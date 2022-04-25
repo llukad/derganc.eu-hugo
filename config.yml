@@ -2,6 +2,7 @@ baseURL: "https://derganc.eu/"
 title: derganc.eu
 paginate: 10
 theme: PaperMod
+# copyright: "**[example.site](https://example.site)**"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -12,12 +13,17 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: derganc.eu
   description: "Luka Derganc"
   keywords: [Blog, Portfolio]
-  author: Luka Derganc
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -33,12 +39,12 @@ params:
   disableScrollToTop: false
   comments: false
   hidemeta: false
-  hideSummary: false
+  hideSummary: true
   showtoc: false
   tocopen: false
 
   label:
-    text: "Home"
+    text: "derganc.eu"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -48,8 +54,8 @@ params:
     title: derganc.eu
     subtitle: "Hello, I'm Luka"
     imageUrl: "/logo-outer.png"
-    imageWidth: 720
-    imageHeight: 720
+    imageWidth: 500
+    imageHeight: 500
     imageTitle: logo
     buttons:
       - name: Posts
@@ -71,14 +77,10 @@ params:
       url: "https://www.youtube.com/channel/UCddS2cslaLLl5aPoiRjW2dg"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+    responsiveImages: true
 
   # for search
   # https://fusejs.io/api/options.html
@@ -92,14 +94,14 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: posts
-      name: posts
-      url: /posts/
+    - identifier: timeline
+      name: timeline
+      url: /timeline/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:

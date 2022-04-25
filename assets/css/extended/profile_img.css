@@ -1,0 +1,93 @@
+
+
+
+.logo_holder{
+    position: relative;
+    width: 500px;
+    aspect-ratio: auto 500/500;
+    height: auto;
+    text-align: left;
+
+}
+
+@media screen and (max-width: 768px){
+.logo_holder{
+    width: 350px;
+    height: 350px;
+}
+.profile img {
+    transform: scale(1);
+}
+
+}
+
+.helm{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    animation: yourAnimation 25s ease 0s infinite normal none;
+    
+}
+
+.clouds{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes yourAnimation {
+    0.0% {
+    }
+    15.9% {
+      transform: rotate(990deg);
+    }
+    23.5% {
+      transform: rotate(1020deg);
+    }
+    25.7% {
+      transform: rotate(1040deg);
+    }
+    27.8% {
+      transform: rotate(990deg);
+    }
+    33.8% {
+      transform: rotate(970deg);
+    }
+    40.3% {
+      transform: rotate(300deg);
+    }
+    45.7% {
+      transform: rotate(350deg);
+    }
+    5.1% {
+      transform: rotate(1000deg);
+    }
+    51.7% {
+      transform: rotate(700deg);
+    }
+    56.3% {
+      transform: rotate(740deg);
+    }
+    6.3% {
+      transform: rotate(990deg);
+    }
+    60.0% {
+      transform: rotate(700deg);
+    }
+    70.2% {
+      transform: rotate(2000deg);
+    }
+    73.3% {
+      transform: rotate(1900deg);
+    }
+    8.8% {
+      transform: rotate(1020deg);
+    }
+    81.0% {
+      transform: rotate(2000deg);
+    }
+  }
+  
+  .animate-spin {
+    
+  }
