@@ -69,6 +69,8 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
+    - name: github
+      url: "https://github.com/llukad"
     - name: email
       url: "mailto:luka@derganc.eu"
     - name: instagram
@@ -77,6 +79,8 @@ params:
       url: "https://www.youtube.com/channel/UCddS2cslaLLl5aPoiRjW2dg"
     - name: rss
       url: "/index.xml"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/lderganc/"
 
   cover:
     hidden: false # hide everywhere but not in structured data
