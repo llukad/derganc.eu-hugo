@@ -60,8 +60,8 @@ params:
     buttons:
       - name: Posts
         url: posts
-      - name: Timeline
-        url: timeline
+      - name: Tags
+        url: tags
 
   # home-info mode
   homeInfoParams:
